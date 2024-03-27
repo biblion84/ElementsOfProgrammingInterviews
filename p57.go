@@ -25,6 +25,14 @@ func main() {
 		Ymin: 0, Ymax: 3,
 	}))
 
+	fmt.Println(intersect(Rectangle{
+		Xmin: 0, Xmax: 3,
+		Ymin: 1, Ymax: 2,
+	}, Rectangle{
+		Xmin: 1, Xmax: 2,
+		Ymin: 0, Ymax: 3,
+	}))
+
 }
 
 func intersectingRectangle(a, b Rectangle) Rectangle {

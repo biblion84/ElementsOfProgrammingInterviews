@@ -45,7 +45,7 @@ func main() {
 }
 
 // Note: this assume that the rectangle is X and Y aligned
-// given 4 points in the plane, how would you check if they are the vertices of a rectangle ?
+// Variant: given 4 points in the plane, how would you check if they are the vertices of a rectangle ?
 func isRectangle(points [4]Point) bool {
 
 	x := map[int]int{}
@@ -118,3 +118,5 @@ func isRectangleNotAligned(points [4]Point) bool {
 	return false
 
 }
+
+// TODO Variant: How would check if two rectangles, not necessarily aligned with the X and Y axes, intersect ?
